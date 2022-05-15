@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Livvic', sans-serif;
+  font-style: normal;
+  background-color: #014E56;
+}
+// .container-fluid {
+//   background-color: #014E56;
+// }
+h1 {
+  font-family: 'Livvic', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+h2 {
+  font-family: 'Livvic', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+}
+h3 {
+  font-family: 'Livvic', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px; 
+}
+p {
+  font-family: 'Livvic', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+@import "./blocks/all-blocks";
+@import "./blocks/main-contents/home-main";
+@import "./blocks/main-contents/about-main";
+@import "./blocks/main-contents/contact-main";

@@ -1,0 +1,60 @@
+// ===================== header =============
+header::after {
+  content: "";
+  width: 100px;
+  height: 200px;
+  background-image: url(../../img/bgimg.svg);
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+.header-nav {
+  padding-top: 77px;
+  margin-bottom: 133px;
+}
+.nav-items {
+  img {
+    width: 160px;
+    height: 40px;
+    margin-right: 80px;
+  }
+}
+.link-list {
+  li~ li{
+    margin-left: 40px;
+  }
+  a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+  }
+  a:hover {
+    color: #F67E7E;;
+  }
+}
+
+// ================= hero ===============
+
+
+.page-heading {
+  margin: 0;
+  margin-right: 165px;
+  font-size: 64px;
+  line-height: 100px;  
+  margin-bottom: 176px;
+}
+.hero-content {
+  top: 40px;
+  margin: 0;
+}
+.hero-content::before {
+  content:  "";
+  background-color: #F67E7E;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  top: -40px;
+  z-index: 2;
+}

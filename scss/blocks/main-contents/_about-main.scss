@@ -1,0 +1,25 @@
+
+
+
+
+
+
+.our-clients {
+  padding-top: 140px;
+  background-color: #012f34;
+}
+.our-clients::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../../../img/clients-bg.svg);
+  background-repeat: no-repeat;
+}
+.client-list {
+  margin-top: 70px;
+  margin-bottom: 0;
+  padding-bottom: 140px;
+}

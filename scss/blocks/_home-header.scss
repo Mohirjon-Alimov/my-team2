@@ -1,0 +1,25 @@
+.header-nav {
+  padding-top: 77px;
+  margin-bottom: 133px;
+}
+.nav-items {
+  img {
+    width: 160px;
+    height: 40px;
+    margin-right: 80px;
+  }
+}
+.link-list {
+  li~ li{
+    margin-left: 40px;
+  }
+  a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+  }
+  a:hover {
+    color: #F67E7E;;
+  }
+}
